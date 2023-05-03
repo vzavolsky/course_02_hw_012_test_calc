@@ -36,5 +36,6 @@ class CalcImplTest {
     public void divideNegativeTest() {
         Assertions.assertThrows(BadRequestException.class,() -> calc.divide(2,0));
         Assertions.assertThrows(BadRequestException.class,() -> calc.divide(0,0));
+        Assertions.assertThrows(BadRequestException.class,() -> calc.divide(-1,0));
     }
 }

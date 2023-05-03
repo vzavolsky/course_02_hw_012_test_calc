@@ -1,6 +1,7 @@
 package com.zavolsky.course_02.domain;
 
 public class Calc {
+
     private int num1;
     private int num2;
 
