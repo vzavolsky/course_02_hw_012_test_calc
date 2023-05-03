@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CalcImpl implements CalcService {
+
     public String greetings() {
         return "Добро пожаловать в калькулятор.";
     }

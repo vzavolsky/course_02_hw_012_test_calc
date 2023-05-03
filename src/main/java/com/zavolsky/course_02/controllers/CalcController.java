@@ -11,6 +11,7 @@ import java.util.Objects;
 @RestController
 @RequestMapping(path = "/calculator")
 public class CalcController {
+
     private final CalcImpl calcImpl;
 
     public CalcController(CalcImpl calcImpl) {
